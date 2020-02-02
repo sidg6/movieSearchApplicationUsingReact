@@ -1,0 +1,30 @@
+.searchResultsHeading{
+    font-size: 28px;
+    text-shadow:  1px 1px 1px red;
+    margin-left:24px;
+    color:#fff;
+}
+.card{
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.images{
+    border-radius: 8px 8px;
+    box-shadow: 0 4px 8px 0 #d4d4d4;
+}
+
+.images img{
+    max-height:240px;
+    width:200px;
+    border-radius: 8px 8px;
+}
+
+.movieTitle{
+    width:200px;
+    display: flex;
+    margin: 10px 40px 10px 40px;
+    color:white;
+    justify-content: center;
+    text-align: center;
+}
