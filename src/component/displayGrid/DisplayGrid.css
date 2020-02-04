@@ -2,7 +2,7 @@
     font-size: 28px;
     text-shadow:  1px 1px 1px red;
     margin-left:24px;
-    color:#fff;
+    color:#000;
 }
 .card{
     display: inline-block;
@@ -11,7 +11,7 @@
 
 .images{
     border-radius: 8px 8px;
-    box-shadow: 0 4px 8px 0 #d4d4d4;
+    box-shadow: 0 4px 8px 0 #000;
 }
 
 .images img{
@@ -24,7 +24,8 @@
     width:200px;
     display: flex;
     margin: 10px 40px 10px 40px;
-    color:white;
+    color:#000;
     justify-content: center;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

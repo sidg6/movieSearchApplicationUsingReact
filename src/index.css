@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-image:url(./assets/background.png);
+  /* background-image:url(./assets/background.png); */
+  /* background:linear-gradient(to right, rgb(142, 158, 171), rgb(238, 242, 243));; */
+  background-color: #e7e5e5c7;
 	max-height:1000px;
 	overflow-y:scroll;
 }

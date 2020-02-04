@@ -5,9 +5,11 @@ import './Filter.css'
 class Filter extends Component {
     constructor(props) {
         super(props);
+        //use useState
         this.state = {
             genreName: this.props.genName,
-            genreId: this.props.genId
+            genreId: this.props.genId,
+            genereList:[]
         }
         this.switchGenreHandler = this.switchGenreHandler.bind(this);
     }
@@ -38,6 +40,7 @@ class Filter extends Component {
         })
     }
     render() {
+        console.log(this.state.genereList);
         let moviesFilteredList = [];
         if (this.props.searchFlag) {
             if (this.props.moviesData.length > 0) {
