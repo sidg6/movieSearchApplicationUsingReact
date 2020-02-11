@@ -1,30 +1,132 @@
-.searchResultsHeading{
-    font-size: 28px;
-    text-shadow:  1px 1px 1px red;
-    margin-left:24px;
-    color:#fff;
-}
 .card{
     display: inline-block;
     margin-bottom: 40px;
+    outline: none;
+}
+
+.card figure{
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 
 .images{
     border-radius: 8px 8px;
-    box-shadow: 0 4px 8px 0 #d4d4d4;
+    box-shadow: 0 4px 8px 0 #000;
 }
 
 .images img{
     max-height:240px;
     width:200px;
     border-radius: 8px 8px;
+    outline: none;
 }
 
 .movieTitle{
     width:200px;
     display: flex;
     margin: 10px 40px 10px 40px;
-    color:white;
+    color:#000;
     justify-content: center;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.movieTitle.dark{
+    color: #fff;
+}
+
+
+@media screen and (min-width: 320px) and (max-width:767px){
+    .card{
+        display: block;
+    }
+    .images img{
+        width:100%;
+    }
+    .movieTitle{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .card{
+        display: inline-block;
+        width:242px;
+    }
+    .images img{
+        width:192px;
+    }
+    .movieTitle{
+        display: flex;
+        width:192px;
+    }
+    .card figure{
+        margin-inline-start: 20px;
+        margin-inline-end: 20px;
+        width:192px;
+        height: 244px;
+    }
+    .images{
+        border-radius: 8px 8px;
+        box-shadow: 0 4px 8px 0 #000;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .card{
+        width:245px;
+    }
+    .images img{
+        width:200px;
+    }
+    .movieTitle{
+        width:200px;
+    }
+    .card figure{
+        width:200px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .card{
+        width:275px;
+    }
+    .images img{
+        /* max-height:240px; */
+        width:250px;
+        max-height: 300px;
+    }
+
+    .card figure{
+        width:250px;
+        height: 305px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .card{
+        width:420px;
+    }
+    .images img{
+        width:370px;
+        max-height: 400px;
+    }
+    .card figure{
+        width:370px;
+        height: 405px;
+    }
+
+    .movieTitle{
+       font-size: 30px;
+       margin-top: 20px;
+       margin-bottom: 10px;
+       margin-left: 10px;
+       margin-right: 0px;
+       justify-content: center;
+       text-align: center;
+       width:370px;
+    }
 }

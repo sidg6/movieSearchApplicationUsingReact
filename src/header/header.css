@@ -4,4 +4,15 @@
 	text-align: center;
 	font-family: 'Metal Mania', cursive;
 	text-shadow:  1px 1px 1px red;
+	outline: none;
 }
+
+.heading h1{
+	outline: none;
+}
+
+@media screen and (min-width:2560px){
+	.heading{
+		font-size: 84px;
+	}
+  }

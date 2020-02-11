@@ -1,7 +1,7 @@
 .dropdown{
     float:right;
     font-size: 18px;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     margin-right: 30px;
     outline: none;
@@ -10,3 +10,22 @@
     border-radius:2px;
     margin-bottom: 20px;
 }
+
+@media screen and (min-width: 320px){
+  .dropdown{
+    margin-right:0px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .dropdown{
+    margin-right: 30px;
+  }
+}
+
+
+@media screen and (min-width:1668px){
+    .dropdown {
+      font-size: 24px;
+    }
+  }

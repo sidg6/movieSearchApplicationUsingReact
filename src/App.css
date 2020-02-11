@@ -4,28 +4,41 @@
 
 .searchBar, .seachButton{
   font-size: 18px;
-  font-family: 'Fredericka the Great', cursive;
-  box-shadow:2px 3px;
+  box-shadow: 2px 3px;
   border-radius:2px;
   outline: none;
 }
 .searchBar{
   margin-left:20%;
 	width:50%;
-	text-shadow: 1px 1px 1px red;
+  text-shadow: 1px 1px 1px #e3e3e3;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: 'Fredericka the Great', cursive; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .seachButton{
+  /* font-family: 'Fredericka the Great', cursive; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background-image: linear-gradient(to right, #e6dada,#d2d2d2);
 	text-shadow: 1px 1px 1px #fff;
   color:#000;
   cursor: pointer;
 }
 
+.searchResultsHeading{
+  font-size: 28px;
+  text-shadow:  1px 1px 1px red;
+  margin-left:24px;
+  color:#000;
+  outline: none;
+}
+
 .errorMessage{
-  color:#fff;
+  color:#000;
   margin-left:20%;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .filter{
@@ -35,4 +48,37 @@
 
 .moviesList{
   padding:20px 20px;
+}
+
+.searchResultsHeading.dark{
+  color:#fff;
+}
+
+.errorMessage.dark{
+  color:#fff;
+}
+
+
+@media screen and (min-width:2560px){
+  .searchBar, .seachButton {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:767px){
+  .searchBar {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px;
+    display: block;
+    width: 80%;
+  }
+
+  .seachButton {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px;
+    display: block;
+    margin-top: 20px;
+  }
 }

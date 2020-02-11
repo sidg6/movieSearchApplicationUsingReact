@@ -1,0 +1,12 @@
+.footer .fa{
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    margin:20px 20px;
+    outline: none;
+}
+
+.footer .fa.dark{
+    color:#9bdffa;
+}

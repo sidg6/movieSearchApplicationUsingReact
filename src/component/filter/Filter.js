@@ -5,6 +5,7 @@ import './Filter.css'
 class Filter extends Component {
     constructor(props) {
         super(props);
+        //use useState
         this.state = {
             genreName: this.props.genName,
             genreId: this.props.genId
