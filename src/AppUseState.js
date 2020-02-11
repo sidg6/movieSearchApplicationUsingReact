@@ -3,7 +3,7 @@ import Header from './header/Header'
 import Footer from './footer/Footer'
 import FilterUsingFunction from './component/filter/FilterUsingFunction'
 import './App.css';
-import Carousel from './component/ carousel/Carousel';
+import Carousel from './component/carousel/Carousel';
 
 function AppUseState() {
 
